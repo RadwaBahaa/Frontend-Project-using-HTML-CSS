@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="auther" content="Radwa_Bahaa">
+    <meta name="description" content="The Final project of the front end course (HTML & CSS)">
+    <link rel="stylesheet" href="style/StyleSheet.css">
+    <link rel="icon" href="imagse/iti-logo-wight.png" style="width: 10px;">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <title>GIS 44 | Join Us</title>
+</head>
+<body id="top" class="body">
+
+    <!-- Navigation Bar -->
+     <div class="container nav">
+        <div class="logo">
+            <a class="container ancher" href="https://iti.gov.eg/" target="_blank">
+                <img class="logo_picture" src="imagse/iti-logo-black.png" alt="ITI_Logo">
+                <div class="logo_separator"></div>
+                <span class="logo_name">INFORMATION TECHNOLOGY INSTITUTE</span>
+            </a>
+        </div>
+        <nav class="nav_bar">
+            <ul class="nav_list">
+                <li><a class="ancher" href="index.html">HOME</a></li>
+                <li><a class="ancher" href="2-OurFamily.html">OUR FAMILY</a></li>
+                <li><a class="ancher" href="3-ContactUs.html">CONTACT US</a></li>
+              </ul>
+              <a class="ancher" href="#top">
+                <button class="active_button button">
+                    JOIN US
+                </button>
+              </a>
+        </nav> 
+    </div>
+
+    <!-- Tha Gap -->
+    <div class="empty_box"></div>
+
+    <!-- Main Title -->
+    <header class="header">
+        <p class="s">GEOGRAPHIC INFORMATION SYSTEM</p>
+        <p class="f">Intake 44</p>
+    </header>
+
+    <!-- Title -->
+    <div class="container_column">
+        <h1 class="title">Join our Family</h1>
+        <h4 class="note">Enter here your information to join our kind family</h4>
+        <div class="separator"></div>
+    </div>
+
+    <!-- Form -->
+    <form action="4-JoinUsSuccessfully.html" method="get" data-aos="fade-up" data-aos-duration="200">
+        <div class="container_column form">
+            <fieldset class="fieldset">
+                <legend class="legend" id="reser">Personal Details</legend>
+                <div class="grid2">
+                    <label class="label">Gender</label> 
+                    <div class="grid3">
+                        <div>
+                            <input class="input" type="radio" name="Gender" value="Male">
+                            <label class="label2">Male</label> 
+                        </div>
+                        <div>
+                            <input class="input" type="radio" name="Gender" value="Male">
+                            <label class="label2">Female</label> 
+                        </div>
+                    </div>
+
+                    <label class="label">First name</label> 
+                    <input class="input" type="text" required minlength="3" max="10">
+
+                    <label class="label">Last name</label>
+                    <input class="input" type="text" required minlength="3" max="10"> 
+
+                    <label class="label">Email</label>
+                    <input class="input" type="text" placeholder="someone@example.com">
+
+                    <label class="label">Date of birth</label>
+                    <input class="input" type="date" max="1-1-2010">
+
+                    <label class="label">Occupation</label>
+                    <select class="select">
+                        <option disabled selected>--None--</option>
+                        <option>Instructor</option>
+                        <option>Student in another track</option>
+                        <option>Something else</option>
+                    </select>
+
+                    <label class="label">Address</label>
+                    <textarea class="textarea" placeholder="Enter your address here"></textarea>
+
+                    <label class="label">Hobbies</label>
+                    <div class="grid3">
+                        <div>
+                            <input class="input" type="checkbox" name="Hobbies" value="Swiming">
+                            <label class="label2">Swimming</label>
+                        </div>
+                        <div>
+                            <input class="input" type="checkbox" name="Hobbies" value="Playng Music">
+                            <label class="label2">Playing Music</label>
+                        </div>
+                        <div>
+                            <input class="input" type="checkbox" name="Hobbies" value="Singing">
+                            <label class="label2">Singing</label>
+                        </div>
+                        <div>
+                            <input class="input" type="checkbox" name="Hobbies" value="Reading">
+                            <label class="label2">Reading</label>
+                        </div>
+                        <div>
+                            <input class="input" type="checkbox" name="Hobbies" value="Drawing">
+                            <label class="label2">Drawing</label>
+                        </div>
+                        <div>
+                            <input class="input" type="checkbox" name="Hobbies" value="Gaming">
+                            <label class="label2">Gaming</label>
+                        </div>
+                        <div class="cell2">
+                            <input class="input" type="checkbox" name="Hobbies" value="Other Hobbies">
+                            <label class="label2">Other Hobbies</label>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+        <div class="container buttons">
+            <button class="button2" type="submit">Submit</button>
+            <button class="button2" type="reset">Reset</button>
+        </div>
+    </form>
+
+    <!-- Footer -->
+    <footer class="container footer">
+        <div class="logo">
+            <a class="container ancher" href="https://iti.gov.eg/" target="_blank">
+                <img class="logo_picture" src="imagse/iti-logo-black.png" alt="ITI_Logo">
+            </a>
+        </div>
+        <div class="logo_separator"></div>
+        <div class="container links">
+            <snap class="snap">&COPY; Copyright 2023 | Produced By Radwa Bahaa</snap>
+            <a class="ancher" href="#top" title="To the top">
+                <button class="button" type="button">
+                    <img class="image_top"  src="imagse/up-arrow-5.png" alt="Top Page">
+                </button>
+            </a>
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
