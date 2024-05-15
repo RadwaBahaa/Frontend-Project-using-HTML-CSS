@@ -1,4 +1,4 @@
-# GIS 44 Frontend Project
+# Frontend Project using HTML/CSS
 This project is a frontend implementation developed for a Geographic Information System (GIS) course's final assignment, using HTML and CSS. It employs modern layout techniques like grid and flexbox, incorporating key components such as a navbar, forms, and responsive design.
 
 ## Features
